@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  justify-content: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.user {
+  padding: 50px;
+  background-color: rgb(105, 192, 105);
+  margin: 50px;
+}
+
+.coach {
+  padding: 50px;
+  background-color: rgb(225, 225, 70);
+  margin: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hi {
+  font-style: italic;
+}
